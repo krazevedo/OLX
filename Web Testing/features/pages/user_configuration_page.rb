@@ -52,7 +52,6 @@ module Otodom
       end      
 
       def choose_tab
-        binding.pry
         tab.tabs[1].click
       end
     end
