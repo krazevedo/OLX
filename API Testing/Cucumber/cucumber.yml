@@ -1,4 +1,0 @@
-##YAML Template
----
-default: -p html_report
-html_report: --format pretty --format html --out=features_report.html
