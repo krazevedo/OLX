@@ -25,10 +25,10 @@ bundle install
 
 Run tests with chrome
 ```
-bundle exec cucumber -p chrome -p html_report -p dev user=[user] password=[password]
+bundle exec cucumber -p chrome user=[user] password=[password]
 ```
 
 HTML Report
 ```
-bundle exec cucumber -p html_report -p dev user=[user] password=[password]
+bundle exec cucumber -p html_report user=[user] password=[password]
 ```

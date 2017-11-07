@@ -18,7 +18,5 @@ bundle install
 
 ### Basic Guide
 
-HTML Report
-```
 bundle exec cucumber 
 ```
