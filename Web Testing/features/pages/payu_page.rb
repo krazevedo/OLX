@@ -32,7 +32,6 @@ module Otodom
       end 
 
       def verify_message_denied
-        binding.pry
         error.wait_for_error_title
         expect(error.error_title.text).to eq("Erro de autorização")  
       end       
