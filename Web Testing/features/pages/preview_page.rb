@@ -24,7 +24,6 @@ module Otodom
         preview.sent_button.click              
       end
       def verify_success_message
-        binding.pry
         sleep(0.5)
         confirm.wait_for_success_message
         expect(confirm.success_message.text).to eq("Odbierz e-mail!")
